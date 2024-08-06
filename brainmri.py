@@ -9,7 +9,7 @@ from PIL import Image
 model = load_model('model (1).keras')
 
 # Class mappings
-class_mappings = {0: 'Notumor', 1: 'Meninigioma', 2: 'Glioma', 3: 'Pituitary'}
+class_mappings = {'Glioma': 0, 'Meninigioma': 1, 'Notumor': 2, 'Pituitary': 3}
 
 
 # Function to load and preprocess the image
