@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing import image
 from PIL import Image
 
 # Load the model
-model = load_model('model(1).keras')
+model = load_model('model (1).keras')
 
 # Class mappings
 class_mappings = {0: 'Glioma', 1: 'Meninigioma', 2: 'Notumor', 3: 'Pituitary'}
