@@ -105,11 +105,7 @@ if uploaded_file is not None:
     ax.set_title('Prediction Probabilities')
     st.pyplot(fig)
 
-    # Pie chart for prediction probabilities
-    fig, ax = plt.subplots()
-    ax.pie(probabilities, labels=[class_mappings[i] for i in range(4)], autopct='%1.1f%%', startangle=90)
-    ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-    st.pyplot(fig)
+    
 st.markdown("""
     <style>
     .stApp {
