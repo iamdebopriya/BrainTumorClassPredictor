@@ -23,7 +23,7 @@ def preprocess_image(img):
 # Detailed advice dictionary
 advice = {
     'Glioma': {
-        'description': 'Gliomas are a type of tumor that occurs in the brain and spinal cord. They begin in the glial cells that surround nerve cells and help them function.',
+        'description': 'Gliomas are  type of tumor that occurs in the brain and spinal cord. They begin in the glial cells that surround nerve cells and help them function.',
         'location': 'Brain and spinal cord.',
         'precautions': 'Regular monitoring with MRI scans, avoiding radiation exposure, and maintaining a healthy lifestyle.',
         'medications': 'Chemotherapy drugs like temozolomide, corticosteroids to reduce inflammation, and anticonvulsants to prevent seizures.',
